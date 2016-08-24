@@ -1,6 +1,6 @@
 # backupdbcloud
 
-A Symfony task that uses a bash script to upload on soundcloud your databases
+A Symfony task that uses a bash script to upload on dropbox your databases
 
 ## Parameters
 You must set in the bash script the pwd, user, host SQL
