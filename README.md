@@ -25,9 +25,10 @@ You must set the following parameters :
 ## Cron
 
 You can add the task as a cron such as :
-0 0   1 * * php bin/console script:backup_db dev
 
-0 */6 * * * php bin/console script:backup_db prod
+    0 0   1 * * php bin/console script:backup_db dev
+ 
+    0 */6 * * * php bin/console script:backup_db prod
 
 Backup for prod are done every 6 hours
 Backup for dev are done daily
